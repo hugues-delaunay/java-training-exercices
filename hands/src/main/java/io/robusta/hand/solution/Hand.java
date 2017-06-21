@@ -91,8 +91,7 @@ public class Hand extends TreeSet<Card> implements IHand {
 			} 
 		}
 		return false;
-	
-		return true;
+
 	}
 
 	/**
