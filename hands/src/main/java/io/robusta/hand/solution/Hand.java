@@ -74,7 +74,7 @@ public class Hand extends TreeSet<Card> implements IHand {
 
 		for (Card current : this) {
 			
-			if (current.getValue()  == previous.getValue()+1) {
+			if (current.getColor()  == previous.getColor()) {
 				count++;
 				previous = current;
 
